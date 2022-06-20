@@ -1,0 +1,46 @@
+
+$purple: #C42D91;
+$blue: #52B6F7;
+$cyan: #D3D3D3;
+$border-radius: 0;
+$paragraph-margin-bottom: 0;
+@import "~bootstrap/scss/bootstrap";
+
+
+body{
+  background: #b2f9ff;
+  background: -moz-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%);
+  background: -webkit-linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%);
+  background: linear-gradient(135deg,  #b2f9ff 0%,#efebbe 100%);
+  min-height: 999vh;
+}
+
+.user-div:hover{
+  background-color: darkgray;
+}
+.caja-mensajes{
+  overflow-y: scroll;
+  height:800px;
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.imagen-usuario{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 70%;
+
+}
+
+.input-mensaje::placeholder{
+  color: rgba(0,0,0,0.5);
+}
+
+.informacion{
+  color: rgba(0,0,0,0.5);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
